@@ -28,25 +28,28 @@ venv\Scripts\activate     # Untuk Windows
 
 ### 3️⃣ **Install Dependencies**
 ```bash
-pip install -r requirements.txt
+pip install pyautogui
+pip install pillow
 ```
 
 ---
 
 ## 🚀 Menjalankan Aplikasi
-Jalankan script utama dengan perintah berikut:
+Jalankan script Server terlebih dulu dengan perintah berikut:
 ```bash
-python main.py
+python server.py
 ```
-Aplikasi akan mulai mengontrol sesi RDP dengan simulasi input otomatis.
+kemudian jalankan script Client dengan perintah berikut :
+```bash
+python client.py
+```
 
----
 
 ## 🔧 Membuat Aplikasi Menjadi Executable (.exe)
 Untuk mengubah aplikasi ini menjadi executable Windows:
 ```bash
 pip install pyinstaller
-pyinstaller --onefile --noconsole main.py
+pyinstaller --onefile --noconsole server.py
 ```
 Hasilnya akan ada di folder `dist/main.exe`.
 

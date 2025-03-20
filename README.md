@@ -82,7 +82,7 @@ Proyek ini menggunakan lisensi **MIT**. Silakan gunakan dan modifikasi sesuai ke
 ---
 
 ## 🤝 Penjelasan detail bisa berkunjung ke website berikut :
-[Jika ingin berkontribusi, silakan fork repository ini, buat branch baru, dan kirimkan pull request!](https://audhighasu.com/2025/03/20/%f0%9f%96%a5%ef%b8%8f%f0%9f%94%a5-remote-desktop-sederhana-dengan-python-dan-laragon/) 😊
+https://audhighasu.com/2025/03/20/%f0%9f%96%a5%ef%b8%8f%f0%9f%94%a5-remote-desktop-sederhana-dengan-python-dan-laragon/ 😊
 
 ---
 

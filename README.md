@@ -46,12 +46,19 @@ python client.py
 
 
 ## 🔧 Membuat Aplikasi Menjadi Executable (.exe)
-Untuk mengubah aplikasi ini menjadi executable Windows:
+Untuk mengubah aplikasi server.py ini menjadi executable Windows:
 ```bash
 pip install pyinstaller
 pyinstaller --onefile --noconsole server.py
 ```
-Hasilnya akan ada di folder `dist/main.exe`.
+Hasilnya akan ada di folder `dist/server.exe`.
+
+Untuk mengubah aplikasi server.py ini menjadi executable Windows:
+```bash
+pip install pyinstaller
+pyinstaller --onefile --noconsole server.py
+```
+Hasilnya akan ada di folder `dist/server.exe`.
 
 ---
 
